@@ -2,5 +2,5 @@
   
 **Nothing To See Here Move Along, Move Along**  
   
-![Go Away](https://i.imgur.com/HFBWCbU.gif)
+![Go Away](http://i.imgur.com/HFBWCbU.gif)
 
