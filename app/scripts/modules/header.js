@@ -14,7 +14,12 @@ export const header = {
   },
 
   handlePubSubEvent:function(data){
-    this.counter ++;
+    if(data){
+      this.counter = data;
+    }else{
+      this.counter ++;
+    }
+
     let suffix = (this.counter > 1)?"s":"";
     this.header.textContent = "Button has been clicked "+this.counter+" time"+suffix;
     if(this.counter >9){
@@ -23,7 +28,6 @@ export const header = {
   },
 
   destroy:function () {
-    console.log("UNSUBSCRIBE!")
     pubsub.unsubscribe('buttonClicked','header')
   }
 }

@@ -10,7 +10,7 @@ export const button = {
     document.body.appendChild(this.button);
   },
 
-  handleclick:function (event) {
+  handleclick:function () {
     pubsub.emit('buttonClicked',null);
   }
 
