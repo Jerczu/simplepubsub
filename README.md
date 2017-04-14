@@ -2,5 +2,5 @@
   
 **Nothing To See Here Move Along, Move Along**  
   
-![Go Away](https://vicsmash.com/nothing_to_see_here_naked_gun.gif)
+![Go Away](https://i.imgur.com/HFBWCbU.gif)
 
