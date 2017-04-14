@@ -24,7 +24,10 @@ export const pubsub = {
   emit:function(eventname,data){
     if(this.subscribed[eventname]){
       this.subscribed[eventname].forEach(function (cb) {
-        let val = Object.values(cb);
+        var val = Object.keys(cb).map(function(key) {
+          return cb[key];
+        });
+
         if(typeof val[0] === 'function'){
           val[0](data);
         }
